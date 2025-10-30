@@ -28,7 +28,7 @@ New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
 try {
     # Download
     Write-Host "[INFO] Downloading reset script..." -ForegroundColor White
-    $scriptUrl = "https://raw.githubusercontent.com/YOUR_USERNAME/cursor-reset-machine-id/main/Reset-CursorMachineID.ps1"
+    $scriptUrl = "https://raw.githubusercontent.com/ngynlaam/cursor-reset-machine-id/main/Reset-CursorMachineID.ps1"
     $scriptPath = Join-Path $tempDir "Reset-CursorMachineID.ps1"
     
     try {
